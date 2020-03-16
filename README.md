@@ -1,5 +1,8 @@
 # Incident-Impact-Prediction
-The objective is to predict the impact of the incidents/complaints raised by the customers from a service desk platform of an IT company to improve their service.   A data set which contains the event log of an incident management process extracted from the service desk platform of an IT company was used to carry out this project. 
+The objective is to predict the impact of the incidents/complaints raised by the customers from a service desk platform of an IT company to improve their service.   A data set which contains the event log of an incident management process extracted from the service desk platform of an IT company was used to carry out this project.
+
+The dataset features are:
+
 ID:
 
 Incident identifier 
