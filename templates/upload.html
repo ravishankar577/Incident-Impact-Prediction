@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+
+    <header>
+    
+	<div id="brandname">
+		<center> ML App </center>
+	    <center> Incident Impact Prediction  </center>   
+	       <img class="XLR" src="{{ url_for('static', filename='XLR.png') }}">
+    </header>
+
+
+    <div class="content">   
+
+
+            <ul>    
+
+                    <li> <p class="para"><b>Please upload A CSV file containing the input data using the Choose File button and then press the Predict_the_Impact button</b></p>
+   </li>
+                    <li><p class="para"><b>An output.csv will be created in the parent folder containg the predictions</b></p>    </li>
+                    <li> <p class="para"><b>A preview of the predictions will be shown below after pressing the Predict_the_Impact button </b></p>    </li>
+
+
+            </ul>
+            
+
+
+
+
+
+
+	
+    
+    
+    
+	
+   
+
+    <div class="results">
+
+
+
+
+            <br>
+            <form method=post enctype=multipart/form-data>
+            <input class="btn1" type=file name=file>
+            <br>
+            <br>
+            <input class="btn1" type=submit value=Predict_the_Impact>
+            </form>
+
+<br>
+Prediction is: {{ result }}
+         </div>
+
+   </div>
+       
+</body>
+</body>
+</html>
